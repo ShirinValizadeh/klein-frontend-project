@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Handlee|Just+Another+Hand|Shrikhand&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="header">
+<!--     <div class="logo">
+      <a href="/">LOGO </a>
+    </div> -->
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#footerrrr">Anmelden</a></li>
+        <li><a href="#store">product</a></li>
+        <li><a href="#footerrrr">about</a></li>
+        <li><a href="#footerrrr">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+<!--======= clock======= -->
+   <div class="clock">
+    <div class="hand hour" data-hour-hand></div>
+    <div class="hand minute" data-minute-hand></div>
+    <div class="hand secend" data-second-hand></div>
+    <div class="number number1"></div>
+    <div class="number number2"></div>
+    <div class="number number3">3</div>
+    <div class="number number4"></div>
+    <div class="number number5"></div>
+    <div class="number number6">6</div>
+    <div class="number number7"></div>
+    <div class="number number8"></div>
+    <div class="number number9">9</div>
+    <div class="number number10"></div>
+    <div class="number number11"></div>
+    <div class="number number12">12</div>
+
+  </div>
+
+
+
+  <!-- slider -->
+  <div class="font">
+    <h1> <sup> <span class="y"><sup>y</sup></span>our</sup>online shop</h1>
+  </div>
+  <div id='shopContainer'>
+    <div class="slider">
+      <div class="bg"></div>
+
+    </div>
+  </div>
+
+  <!--   <div>
+    <div id="appContainer"></div>
+  </div>
+ -->
+  <!-- images -->
+  <div class="titleOurProduct"><h3><sup>OUr</sup>products</h3></div>
+  <div class="flexContainer">
+    <div id="flex">
+
+      <div class="img1 div">
+
+        <a class="btn prevBtn"><i class="fas fa-angle-left"></i></a>
+        <a class="btn nextBtn"><i class="fas fa-angle-right"></i></a>
+
+      </div>
+
+      <div class="img2 div">
+        <a class="btn prevBtn btnP2"><i class="fas fa-angle-left"></i></a>
+        <a class="btn nextBtn btnN2"><i class="fas fa-angle-right"></i></a>
+      </div>
+
+
+      <div class="img3 div">
+        <a class="btn prevBtn btnP3"><i class="fas fa-angle-left"></i></a>
+        <a class="btn nextBtn  btnN3"><i class="fas fa-angle-right"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- =============================section store-ITEMS============================== -->
+  <section id="store">
+    <div class="container">
+
+      <!-- title -->
+      <div class="row">
+        <h2><sup>our</sup>Store</h2>
+      </div>
+      <!-- filter -->
+      <div class="row">
+        <ul id="options">
+          <li><a href="#">All</a></li>
+          <li><a href="#">Sofas</a></li>
+          <li><a href="#">Dishes</a></li>
+          <li><a href="#">Glasses</a></li>
+          <li><a href="#">Parquet</a></li>
+          <li id="listGrocery"> <a href="#">Grocery List</a></li>
+        </ul>
+      </div>
+      <!-- search box -->
+      <div class="row" id="search" >
+        <input type="text" placeholder= "Search Item..."  id="searchInput" >
+      </div>
+      <!-- =======items(cards)============ -->
+      <div class="row" id="store-items">
+        <!-- item1 -->
+        <div class="store-item-div">
+          <div class="card">
+            <div class="img-container">
+              <img src="./img/mobel-2.jpg" alt="" class="store-img">
+            </div>
+            <div class="card-body">
+              <div class="card-txt">
+                <span class="store-item-name dishes">Dishes</span>
+                <span class="store-item-price dishes">
+                  <p><sup>$</sup>1.99</p>
+                </span>
+                <span class="store-item-btn"><a class="dishes" href="#">Add Item</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- item2 -->
+        <div class="store-item-div">
+          <div class="card">
+            <div class="img-container">
+              <img src="./img/mobel-1.jpg" alt="" class="store-img">
+            </div>
+            <div class="card-body">
+              <div class="card-txt">
+                <span class="store-item-name sofa">Sofa</span>
+                <span class="store-item-price sofa">
+                  <p><sup>$</sup>1.99</p>
+                </span>
+                <span class="store-item-btn"><a class="sofa" href="#">Add Item</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- item3 -->
+        <div class="store-item-div">
+          <div class="card">
+            <div class="img-container">
+              <img src="./img/mobel-3.jpg" alt="" class="store-img">
+            </div>
+            <div class="card-body">
+              <div class="card-txt">
+                <span class="store-item-name glass">Glass</span>
+                <span class="store-item-price glass">
+                  <p><sup>$</sup>1.99</p>
+                </span>
+                <span class="store-item-btn"><a class="glass" href="#">Add Item</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- item4 -->
+        <div class="store-item-div">
+          <div class="card">
+            <div class="img-container">
+              <img src="./img/mobel-4.jpg" alt="" class="store-img">
+            </div>
+            <div class="card-body">
+              <div class="card-txt">
+                <span class="store-item-name flowers">Flowers</span>
+                <span class="store-item-price flowers">
+                  <p><sup>$</sup>1.99</p>
+                </span>
+                <span class="store-item-btn"><a class="flowers" href="#">Add Item</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- item5 -->
+        <div class="store-item-div">
+          <div class="card">
+            <div class="img-container">
+              <img src="./img/mobel-5.jpg" alt="" class="store-img">
+            </div>
+            <div class="card-body">
+              <div class="card-txt">
+                <span class="store-item-name jar">Jar</span>
+                <span class="store-item-price jar">
+                  <p><sup>$</sup>1.99</p>
+                </span>
+                <span class="store-item-btn"><a class="jar" href="#">Add Item</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- item6 -->
+        <div class="store-item-div">
+          <div class="card">
+            <div class="img-container">
+              <img src="./img/javascript.jpg" alt="" class="store-img">
+            </div>
+            <div class="card-body">
+              <div class="card-txt">
+                <span class="store-item-name java">java</span>
+                <span class="store-item-price java">
+                  <p><sup>$</sup>1.99</p>
+                </span>
+                <span class="store-item-btn"><a class="java" href="#">Add Item</a></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!------------- to-do-list------- -->
+  <div id="cardToDoList">
+
+    <div id="titleContainer">
+      <h1 class="title">Grocery list</h1>
+      <div class="titleItems">
+        <ul class="itemListe">
+          <li>ITEM</li>
+          <li>PRICE</li>
+          <li>QUANTITY</li>
+          <li >Total:
+            <span class="total"></span>
+          </li>
+          <li >Count:
+            <span class="item-count"></span>
+          </li>
+        </ul>
+<!--         <ul class="toDoListStyle">
+          <li class="img"><img src="./img-card/mobel-2.jpg" alt="" width="70px" height="60px"></li>
+          <li class="item-name">sofa</li>
+          <li class="item-price">$2.99</li>
+          <li class="Quantity">2</li>
+          <li class="item-btn"><button>remove</button></li>
+        </ul> -->
+
+        <!-- <div class="divTC">
+          <div class='divTotal'>TOTAL:
+            <div class="total"></div>
+          </div>
+          <div class="countDiv">COUNT:
+            <div class="item-count"></div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!-- fooooooooooooooooooter -->
+  <div class="footer" id="footerrrr">
+    <div class="foo1 fo">
+        <h3><sup>LO</sup>GO</h3>
+    
+        <a href="#"> <i class="far fa-envelope"></i> hamburg@digitalcareerinstitute.org</a>
+        <a href="#"> <i class="fas fa-phone-alt"></i> 040882157081</a>
+        <a href="#"><i class="fas fa-home"></i>  Wandalenweg 30</a>
+    </div>
+
+    <div class="foo2 fo">
+        <a href="#"><i class="fab fa-facebook"></i> facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+        <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+        <a href="#"><i class="fab fa-github"></i> github</a>
+    </div>
+    <div class="foo3 fo">
+        <div class="inputfooter">
+            <label for="first">First name</label>
+            <input type="text" id="first" placeholder="first name" >
+
+            <label for="last">Last name</label>
+            <input type="text" id="last" placeholder="last name">
+
+            <label for="sms">E-Mail</label>
+            <input type="text" id="sms" placeholder="your E-Mail">
+
+
+            <input type="button" value="send" id="click">
+        </div>
+
+    </div>
+
+</div>
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
