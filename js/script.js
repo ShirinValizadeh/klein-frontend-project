@@ -455,3 +455,15 @@ listGrocery.addEventListener('click' , (e)=>{
     e.preventDefault()
     cardToDoListDiv.style.display = 'block'
 })
+
+
+
+
+// filter 
+const filterBtn = document.querySelectorAll('#options>li>a')
+filterBtn.forEach(element => {
+   
+    element.addEventListener('click' , e =>{
+    e.preventDefault()
+})
+});  

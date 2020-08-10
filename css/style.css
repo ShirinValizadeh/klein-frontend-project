@@ -1,28 +1,32 @@
-@font-face {
-    font-family: FontShop;
-    src: url(../fonts/4.ttf);
-}
+ @font-face {
+    font-family: logo;
+    src: url(../fonts/ArefRuqaa-Bold.ttf);
+} 
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    /* background-color: #666666d4; */
+    /* background-color: #666666d4;  */
+    background-color: #736b4421;
 }
 
 
 
 /*======= nav bar ====== */
 .header {
-    padding: 0 20px;
+    /* padding: 0 20px; */
     /* max-width: 960px; */
     max-width: 100%;
     margin: 0 auto;
+    background-color: #736b4454;
 }
 
 
 
 nav {
     overflow: hidden;
+    box-shadow: 0 30px 30px -20px rgba(0, 0, 0, .5);
+
 }
 
 ul {
@@ -38,7 +42,7 @@ nav li {
     height: 70px;
     line-height: 70px;
     transition: .5s linear;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 nav a {
@@ -79,7 +83,8 @@ nav a:hover:after {
 .clock .number {
     --rotation: 0;
     position: absolute;
-    color: grey;
+    color:#131701;;
+    /* color: #131701; */
     width: 100%;
     height: 100%;
     text-align: center;
@@ -137,7 +142,8 @@ nav a:hover:after {
     bottom: 50%;
     left: 50%;
 
-    background-color: grey;
+    background-color: #131701;
+  
     transform-origin: bottom;
     /* border: 1px solid gray; */
     border-top-left-radius: 10px;
@@ -149,7 +155,8 @@ nav a:hover:after {
 .clock::after {
     content: '';
     position: absolute;
-    background-color: gray;
+    /* background-color: gray; */
+    color: #131701;
     z-index: 11;
     width: 15px;
     height: 15px;
@@ -169,29 +176,33 @@ nav a:hover:after {
 .clock .hand.minute {
     width: 7px;
     height: 40%;
-    background-color: gray;
+    /* background-color: gray; */
+    color: #131701;
 }
 
 .clock .hand.hour {
     width: 10px;
     height: 35%;
-    background-color: gray;
+    /* background-color: gray; */
+    color: #131701;
 }
 
 /* =========start slider */
 .font {
-    font-family: FontShop;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    color: #364006;
-    letter-spacing: -6px;
+    letter-spacing: -3px;
     text-decoration: overline;
+    color: #131701;
 
 }
 
 .font h1 sup {
-    font-size: 60px;
-    letter-spacing: -4px;
+    font-size: 20px;
+    letter-spacing: -3px;
+    display: inline-block;
+    text-decoration: overline;
 }
 
 .font span {
@@ -290,9 +301,9 @@ nav a:hover:after {
 
 .btn {
     display: inline-block;
-    /* color: #1798b8; */
+     /* color: #1798b8;  */
     color: black;
-    font-size: 3rem;
+    font-size: 20px;
     padding: 1rem;
     border-radius: 20px;
     outline: none;
@@ -315,13 +326,13 @@ nav a:hover:after {
     width: 100%;
 }
 
-.row h2 {
-    font-family: fontShop;
+.row h1 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     letter-spacing: -3px;
     text-decoration: overline;
-    box-shadow: 0px 10px 10px -2px black;
+    /* box-shadow: 0px 10px 10px -2px black; */
 }
 
 #options {
@@ -340,7 +351,7 @@ nav a:hover:after {
     text-decoration: none;
     color: black;
     padding: 5px 15px;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 
@@ -365,7 +376,7 @@ nav a:hover:after {
 }
 
 #searchInput input::placeholder {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -396,19 +407,21 @@ nav a:hover:after {
     margin: auto;
     justify-content: center;
     flex-wrap: wrap;
+    /* margin-top: 3%; */
 }
 
 #store-items .store-item-div {
 
     width: 30%;
     /* margin-left: 30px; */
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .store-img {
-    width: 100%;
-    height: 400px;
+    width: 50%;
+    height: 200px;
     overflow: hidden;
+    margin-left: 20%;
 }
 
 .card {
@@ -432,9 +445,9 @@ nav a:hover:after {
 }
 
 .store-item-name {
-    font-size: 37px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     left: 16%;
 }
@@ -443,7 +456,7 @@ nav a:hover:after {
 .store-item-price {
     position: absolute;
     right: 16px;
-    font-size: 26px;
+    font-size: 20px;
     bottom: 30px;
     right: 21%;
 }
@@ -459,35 +472,43 @@ nav a:hover:after {
 }
 
 .dishes {
-    color: #2e634a;
+    /* color: #2e634a; */
+    color: #131701;
 }
 
 .sofa {
-    color: #d3912c;
+    /* color: #d3912c; */
+    color: #131701;
 }
 
 .glass {
-    color: #6b96c7;
+    /* color: #6b96c7; */
+    color: #131701;
 }
 
 .flowers {
-    color: #620202;
+    /* color: #620202; */
+    color: #131701;
 }
 
 .jar {
-    color: #f40f02;
+    /* color: #f40f02; */
+    color: #131701;
 }
 
 .java {
-    color: #0d0d0d;
+    /* color: #0d0d0d; */
+    color: #131701;
 }
 
 
 
 .hover {
-    color: blanchedalmond;
-    background-color: gray;
-    box-shadow: 0 0 10px rgb(48, 46, 44), 0 0 40px rgb(56, 54, 52), 0 0 80px rgb(63, 61, 57);
+    /* color: blanchedalmond; */
+    color: #131701;
+    /* background-color: gray; */
+    color: #131701;
+    box-shadow: 0 0 10px gray, 0 0 40px gray, 0 0 80px rgb(63, 61, 57);
     transition-delay: 1s;
 }
 
@@ -498,12 +519,12 @@ nav a:hover:after {
     display: none;
     width: 80%;
     height: 800px;
-    background-color: darkgoldenrod;
+    background-color: #6f683fa1;
     position: relative;
     margin: auto;
     border-radius: 24px;
     margin-bottom: 5%;
-    box-shadow: 0 30px 30px -18px black;
+    box-shadow: 0 30px 30px -20px rgba(0, 0, 0, .5);
     ;
 }
 
@@ -516,7 +537,7 @@ nav a:hover:after {
 }
 
 #titleContainer .title {
-    font-family: fontShop;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 40px;
     text-decoration: overline;
@@ -527,8 +548,8 @@ nav a:hover:after {
 
 .titleOurProduct {
     text-align: center;
-    font-family: fontShop;
-    font-size: 43px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
     letter-spacing: -3px;
     text-decoration: overline;
     margin-top: 11%;
@@ -592,7 +613,7 @@ nav a:hover:after {
 .toDoListStyle li {
     display: inline-block;
     padding: 10px 30px;
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
 }
 
@@ -630,19 +651,19 @@ nav a:hover:after {
 
 .divTotal {
     padding: 10px 30px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .countDiv {
     padding: 10px 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .item-btn button {
-    font-size: 23px;
-    box-shadow: 0px 5px 10px black;
+    font-size: 20px;
+    box-shadow: 0 3px 20px 1px rgba(0, 0, 0, .5);
     border-radius: 6px;
     outline: none;
 
@@ -659,9 +680,9 @@ nav a:hover:after {
 .footer {
     display: flex;
     justify-content: center;
-    height: 400px;
     flex-wrap: wrap;
-    box-shadow: -11px -13px 30px black;
+    box-shadow: 0 30px 30px 29px rgba(0, 0, 0, .5);
+    background-color: #736b4454;
 }
 
 .footer>.fo {
@@ -670,7 +691,7 @@ nav a:hover:after {
 }
 
 .foo1>h3 {
-    font-family: FontShop;
+    font-family:'Montserrat', sans-serif;
     font-size: 40px;
     /* border: 6px solid black; */
     width: 17%;
@@ -682,30 +703,42 @@ nav a:hover:after {
 .footer>.fo>a {
     text-decoration: none;
 }
-
+.footer>.foo1>h1{
+    padding-left: 4%;
+    font-style: italic;
+    font-family: logo;
+    box-shadow: 0 30px 30px -20px rgba(0, 0, 0, .5);
+    display: initial;
+} 
 .footer>.foo1>a {
+
     display: block;
-    color: #0d0d0d;
+    /* color: #0d0d0d; */
+    color: #131701;
     font-size: 10px;
     padding: 10px;
-    font-size: 27px;
-
+    font-size: 20px;
+    padding-left: 4%;
+    padding-top: 7%;
 }
 
 .footer>.foo2>a {
     display: block;
-    color: #0d0d0d;
-    font-size: 27px;
+    /* color: #0d0d0d; */
+    color: #131701;
+    font-size: 20px;
     margin-top: 37px;
 }
 
 .inputfooter {
     height: auto;
+    margin-top: 37px;
 }
 
 .inputfooter>input {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
+    box-shadow: 0 30px 30px -10px rgba(0, 0, 0, .5);
 
 }
 
@@ -715,16 +748,16 @@ input::placeholder {
 
 .inputfooter>label {
   
-    font-size: 27px;
-    color: #0d0d0d;
+    font-size: 20px;
+    /* color: #0d0d0d; */
+    color: #131701;
 }
 
-#sms {
-
-    height: 40px;
-    width: 50%;
-   
+.inputfooter  input[type=text]{
+       height: 40px;
+        width: 85%; 
 }
+
 
 #click {
 
@@ -732,18 +765,6 @@ input::placeholder {
     width: 30%;
     padding: 10px 30px;
     font-size: 20px;
-}
-
-#first {
-    height: 40px;
-    width: 50%;
- 
-}
-
-#last {
-    height: 40px;
-    width: 50%;
-   
 }
 
 .fa-facebook{
@@ -774,6 +795,7 @@ input::placeholder {
 
     .store-img {
         height: auto;
+        /* margin-left:0; */
     }
 
     header {
@@ -840,7 +862,7 @@ input::placeholder {
 
     /* -------------foooter -------------------*/
     .footer {
-        margin-top: 8%;
+        margin-top: 21%;
     }
 
     .footer .fo {
@@ -856,19 +878,13 @@ input::placeholder {
     .footer>.foo1>a {
         font-size: 20px;
     }
+    .inputfooter  input[type=text]{
+        width: 96%;
+    }    
 
-    #first {
-        width: 90%;
+    .inputfooter{
+        height: auto;
     }
-
-    #last {
-        width: 90%;
-    }
-
-    #sms {
-        width: 90%;
-    }
-
     /* ==================store======================= */
     #store {
         width: 100%;
@@ -1103,6 +1119,12 @@ input::placeholder {
         margin-right: -20%;
     }
 
+/* img - store  */
+
+.store-img {
+    height: auto;
+    /* margin-left:0; */
+}
 
     /* to-do-list */
 
@@ -1124,7 +1146,7 @@ input::placeholder {
 
     /* -------------foooter -------------------*/
     .footer {
-        margin-top: 8%;
+        margin-top: 21%;
     }
 
     .footer .fo {
@@ -1141,7 +1163,11 @@ input::placeholder {
         font-size: 20px;
     }
 
-    #first {
+    .inputfooter  input[type=text]{
+        width: 96%;
+    }    
+
+/*     #first {
         width: 90%;
     }
 
@@ -1152,7 +1178,7 @@ input::placeholder {
     #sms {
         width: 90%;
     }
-
+ */
 
 
 
